@@ -1,5 +1,4 @@
-# Demo
-https://riandikast.github.io/React-Login/
+
 
 # Preview
 <img width="608" alt="image" src="https://user-images.githubusercontent.com/84719581/195945786-68ff761c-0806-4e50-a8b1-77f7b44b59e8.png">
