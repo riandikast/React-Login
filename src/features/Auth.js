@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { data } from "autoprefixer";
 import Swal from "sweetalert2";
-var valid: Boolean;
+var valid= true;
 export const accountSlice = createSlice({
   name: "acc",
   initialState: {
@@ -9,10 +10,12 @@ export const accountSlice = createSlice({
   },
   reducers: {
     addAcc: (state, action) => {
-      if (valid) {
-        state.account = [...state.account, action.payload];
-        localStorage.setItem("account", JSON.stringify(state.account));
-      }
+
+        if (valid) {
+          state.account = [...state.account, action.payload];
+          localStorage.setItem("account", JSON.stringify(state.account));
+        }
+      
     },
 
     checkData: (state, action) => {

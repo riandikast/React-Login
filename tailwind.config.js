@@ -19,6 +19,7 @@ module.exports = {
         'github-other-blue': '#58a6ff',
         'search' : '#0d1117',
         'github-border' : '#30363d',
+        'news-yellow': '#ffb926',
       
       },
       screens: {

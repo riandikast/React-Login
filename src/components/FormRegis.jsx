@@ -12,10 +12,12 @@ const idIncreament = () => {
   }
 };
 
+
 function FormInput2({ ButtonProperties, ButtonText, FormProp }) {
   const [passwordShown, setPasswordShown] = useState(false);
   const dispatch = useDispatch();
   const [id, setID] = useState(0);
+  
 
   const [saveid, setSaveid] = useState(idIncreament());
   const [username, setUsername] = useState();
